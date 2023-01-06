@@ -1,0 +1,18 @@
+Para acessar as paginas sao utilizadas as seguintes rotas:
+Controle de rotas feito em src/AppRouters.jsx
+validacao de login feito em contexts/auth.jsx
+
+# Tela de Login
+http://localhost:3000/login?
+
+# Home Page // Acesso apos validacao no login
+http://localhost:3000/?
+
+# Tela de acesso do cliente
+http://localhost:3000/client?
+
+# Tela mostrada na tv
+http://localhost:3000/tv?
+
+
+Ultima att 28/12/22 #JailsonSantos

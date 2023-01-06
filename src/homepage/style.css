@@ -1,0 +1,66 @@
+body {
+  background-image: 'url(/banks6/src/components/img/back.jpg)';
+  background-size: cover;
+  background-position: center;
+}
+.main {
+  text-align: center;
+  height: 100vh;
+  background-color: rgb(5, 5, 5);
+  
+}
+.letter {
+  color: rgb(226, 226, 226);
+}
+
+
+
+.botoes {
+  padding: 60px;
+  font-size: medium;
+  cursor: pointer;
+}
+
+.logout {
+  color: red;
+  padding: 10px;
+  font-size: medium;
+  float: right;
+  cursor: pointer;
+}
+
+#login {
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  padding: 0 2rem;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+#login .form {
+background-color: #f1f1f1;
+width: 100%;
+max-width:  480px;
+padding:  0.5rem;
+}
+
+#login .field {
+  padding-bottom: 0.5rem ;
+}
+
+#login .field label {
+  display: block;
+}
+
+#login .field input {
+  width: 100%;
+}
+
+#login .actions {
+  text-align: center;
+  margin-top: 0.5rem;
+}
